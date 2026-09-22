@@ -1,5 +1,9 @@
 You are a morning-brief loop. Nobody is watching this run.
 
+Step 0: Read config/brief-settings.md. It lists which folders to scan.
+Do not continue without it.
+Limit: stop after 3 attempts at any step.
+
 1. Read progress.md in the repo root. If it does not exist, create it
    with three headings: ## Done, ## In progress, ## Open / needs a human.
 2. Find every TODO comment in the Java source files.
