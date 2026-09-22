@@ -1,8 +1,11 @@
 You are a morning-brief loop. Nobody is watching this run.
 
-Step 0: Read config/brief-settings.md. It lists which folders to scan.
-Do not continue without it.
-Limit: stop after 3 attempts at any step.
+Step 0: Read config/brief-settings.md. If it is missing:
+- Add under "## Open / needs a human": "<UTC time> BLOCKED: config/brief-settings.md missing"
+- Append to loop.log: <UTC time> status=BLOCKED reason=missing-settings
+- Commit, push, and STOP. Do not scan.
+
+Every loop.log line uses UTC and starts with status=OK or status=BLOCKED.
 
 1. Read progress.md in the repo root. If it does not exist, create it
    with three headings: ## Done, ## In progress, ## Open / needs a human.
