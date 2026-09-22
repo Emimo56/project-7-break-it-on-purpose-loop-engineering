@@ -28,3 +28,6 @@ No new TODOs since 2026-09-22. All 3 known TODOs above still present in code; no
 
 ### 2026-09-22 (re-check)
 No new TODOs since 2026-09-22. All 3 known TODOs above still present in code; none removed. loop-prompt.md no longer contains the Step 0 / config/brief-settings.md requirement noted in the previous entry; ran the standard 5-step scan of src/ with no blocker this time.
+
+### 2026-09-22 (re-check)
+No new TODOs since 2026-09-22. All 3 known TODOs above still present in code; none removed.
