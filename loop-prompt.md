@@ -12,3 +12,9 @@ You are a morning-brief loop. Nobody is watching this run.
 5. Update progress.md last: add today's date (YYYY-MM-DD) and what you found.
 
 Boundary: edit ONLY progress.md. Never change any .java file.
+
+Git rules (you run on a fresh machine each time):
+- Before step 1: if branch claude/morning-brief exists on origin, check it out.
+  Otherwise create it from main.
+- After step 5: append one line to loop.log: date time new=<n> known=<n>.
+- Commit progress.md and loop.log, and push to claude/morning-brief.
