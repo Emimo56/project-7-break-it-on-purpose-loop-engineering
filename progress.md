@@ -42,3 +42,6 @@ No new TODOs since 2026-09-22. All 3 known TODOs above still present in code; no
 No new TODOs since 2026-09-22. All 3 known TODOs above still present in code; none removed.
 
 2026-09-22 23:58:58 UTC BLOCKED: config/brief-settings.md missing
+
+### 2026-09-23
+No new TODOs since 2026-09-22. All 3 known TODOs above still present in code; none removed.
